@@ -9,7 +9,7 @@ class BSTNode:
             self.val = val
             return
 
-        if self.val == val:
+        if self.val == val: 
             return
 
         if val < self.val:
