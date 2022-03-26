@@ -13,7 +13,7 @@ def search(self, nums: List[int], target: int) -> int:
             if nums[mid] == target:
                 return mid
 
-            # If element is smaller than mid, then it
+            # If element is smaller than mid, then 
             # can only be present in left subarray
             elif nums[mid] > target:
                 r = mid - 1
