@@ -9,7 +9,6 @@ def search(self, nums: List[int], target: int) -> int:
             mid = l + ((r - l) // 2)#given the array is already sorted
     # //we choose the mid as a marker to see if
     # //search is lower or higher than it
-
             # If element is present at the middle itself
             if nums[mid] == target:
                 return mid
