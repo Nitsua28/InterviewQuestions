@@ -18,7 +18,7 @@ def remove(self, key):
 
 -if head-
 
-(12) -> (33)
+(12) -> (33))
 remove(12)
 
 temp = 12
