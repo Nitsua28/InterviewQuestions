@@ -18,7 +18,7 @@ void merge(int arr[], int l, int m, int r)
     j = 0;
     k = l;
 
-    /* i controls indices of left half
+    /* i controls indices of left halfg
         j controls indices of right half
         k controls where the merge copies on the actual array */
 
