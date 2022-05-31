@@ -81,7 +81,7 @@ def twoSum(self, nums: List[int], target: int) -> List[int]:
 
         return []
 # for every element in num, if target - elemnt exists in hash map
- # then return the indices otherwise add it to hash map.
+ # then return the indices otherwise add it to  hash map.
 """
 twoSum([2,7,11,15], 9)
 target=9
