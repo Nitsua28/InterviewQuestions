@@ -3,7 +3,7 @@
 #include <algorithm>
 void bucketSort(float *arr, int size)
 {
-    std::vector <float> temp[10]; //since floating point numbers < 1
+    std::vector <float> temp[10]; //since floatig point numbers < 1
     //we make a bucket array of 1-10 for numbers between 0-1
 
     //place in buckets
