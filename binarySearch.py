@@ -13,7 +13,7 @@ def search(self, nums: List[int], target: int) -> int:
             if nums[mid] == target:
                 return mid
 
-            # If element is smaller than mid, then 
+            # If element is smaller than mid, then
             # can only be present in left subarray
             elif nums[mid] > target:
                 r = mid - 1
@@ -25,3 +25,15 @@ def search(self, nums: List[int], target: int) -> int:
 
             # Element is not present in the array
         return -1
+
+'''
+[4,6,8,9,10,14] t = 10
+
+r = 5
+l = 3
+
+mid = 4
+
+return 10
+
+'''

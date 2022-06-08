@@ -13,6 +13,15 @@ def insertionSort(arr):
 #inplace?
 #stable
 
+def insertionSort(arr):
+    for i in range(1,len(arr)):
+
+[2,3,5,5,6,7]
+i=5
+j=3
+arr[j-1] = 7
+key =6
+
 def mergeSort(arr):
     if len(arr) > 1:
         a = len(arr)//2 #
