@@ -16,7 +16,7 @@ V = 7, which is odd: subtract 1 to obtain 6;
 V = 6, which is even: divide by 2 to obtain 3;
 V = 3, which is odd: subtract 1 to obtain 2;
 V = 2, which is even: divide by 2 to obtain 1;
-V = 1, which is odd: subtract 1 to obtain 0.
+V = 1, which is odd: subtract 1 to obtain 0..
 Seven operations were required to reduce the value of V to 0.
 Write a function:
 class Solution { public int solution(string S); }
