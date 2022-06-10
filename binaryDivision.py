@@ -28,7 +28,6 @@ above.
 2. Given S = "111", the function should return 5. String S encodes the number V = 7. Its value will change over the following
 */
 '''
-
 using System;
 
 public class Program
