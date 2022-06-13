@@ -32,6 +32,14 @@ def palindrome(str):
 #O(n) runtime
 #O(n) space
 
+def palindrome(str):
+    mid = len(str) //2
+    stack = []
+    for i in range(mid):
+        stack.append(str[i])
+    for k in range(mid,len(str)):
+
+
 
 '''
 Constraints
