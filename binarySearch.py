@@ -6,7 +6,7 @@ def search(self, nums: List[int], target: int) -> int:
         while r >= l:#high >= low to eliminate the case
     #where the array gets to be the smallest aka high = low
 
-            mid = l + ((r - l) // 2)#given the array is already sorted
+            mid = l + ((r - l) // 2)#given the array i already sorted
     # //we choose the mid as a marker to see if
     # //search is lower or higher than it
             # If element is present at the middle itself
