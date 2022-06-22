@@ -12,7 +12,7 @@ def checkPermutation(str1,str2):
             else:
                 hash[i]=1 #for every char in str1 hash it or increment key avaliable
         for j in str2:
-            if j in hash: #then eliminate them from hash
+            if j in hash: #then eliminate them from hash   
                 if hash[j] > 1:
                     hash[j]-=1
                 else:
