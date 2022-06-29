@@ -10,7 +10,7 @@ void bucketSort(float *arr, int size)
     for (int i = 0; i< size; i++)
     {
         int y = arr[i]* 10; //determine the  bucket to be placed in  based on value
-        temp[y].push_back(arr[i]);
+        temp[y].push_back(arr[i]);  
     }
     //sorts each bucket
     for (int i = 0; i< 10; i++)
