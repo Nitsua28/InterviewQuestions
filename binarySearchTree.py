@@ -9,13 +9,13 @@ class BSTNode:
             self.val = val
             return
 
-        if self.val == val: 
+        if self.val == val:
             return
 
         if val < self.val:
             if self.left: #if node has left child
                 self.left.insert(val) #points to left child to call insert again
-                return
+                return  
             self.left = BSTNode(val) #otherwise creates left child
             return
 
