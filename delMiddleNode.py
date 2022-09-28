@@ -21,7 +21,7 @@ def remove(self, key):
 (12) -> (33))
 remove(12)
 
-temp = 12
+temp = 12 
 prev = None
 
   temp.data == key
